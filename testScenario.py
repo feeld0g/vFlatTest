@@ -18,7 +18,7 @@ class TestDecreaseTextRecognitionToken(unittest.TestCase):
         'automationName': 'XCUITest',
         'appium:udid': '00008120-000144262E40C01E',
         'noReset': True
-    })
+        })
         self.driver = webdriver.Remote(appium_server_url, options=capabilities)
         self.image_page = ImagePage(self.driver)
         self.camera_page = CameraPage(self.driver)
